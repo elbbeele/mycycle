@@ -1,0 +1,180 @@
+body {
+  /* Add a background color or image */
+  background-color: white;
+  background-image: url('');
+
+  /* Customize the font, size, and color for text*/
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: black;
+
+  /* Adjust the padding and margins */
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+
+  margin: 20px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.header-item:nth-of-type(1) {
+  font-size: 20px;
+  color: black;
+  margin-top: 50px;
+  
+}
+
+.header-item:nth-of-type(2) {
+  font-size: 60px;
+  color: black;
+  background-color: #f9eaea;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.header-button {
+  background-color: lightgrey;
+  border: none;
+  padding: 7px;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+/* Part 1: Navbar */
+
+/* General style rule set for all items in ul */
+.navbar ul {
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+  float: left;
+  margin: 10px;
+}
+
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+  display: block;
+  border-radius: 30px;
+  padding: 7px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  background-color: #ffadad;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+  font-weight: bold;
+  background-color: lightgrey;
+}
+
+
+/* Part 2: Flexbox */
+
+/* General style rule set for flex container */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+/* Style rules for flex-item 1 */
+.flex-item:nth-of-type(1) {}
+
+/* Style rules for flex-item 2 */
+.flex-item:nth-of-type(2) {}
+
+/* Style rules for flex-item 3 */
+.flex-item:nth-of-type(3) {}
+
+
+/* Style set for all flex-items */
+.flex-item {
+  background: white;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* regular content of website */
+
+
+
+a {
+  background-color: #fff;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 5px;
+}
+
+/* a:link {
+
+  border: 3px transparent #333333;
+  color: palevioletred;
+}
+
+a:active {
+  background-color: #fff;
+}
+
+a:hover {
+  background-color: lightblue;
+}
+
+a:visited {
+  color: black;
+} */
+
+/*
+  Style Buttons: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+/* button {
+  background-color: white;
+  border: none;
+  color: palevioletred;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 32px;
+  cursor: pointer;
+  border-radius: 10px;
+} */
+
+/* explanation title styles */
+.title {
+  padding: 10px;
+  background-color: palevioletred;
+  color: white;
+  border-radius: 15px;
+}
+
+.explanation {
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+}
